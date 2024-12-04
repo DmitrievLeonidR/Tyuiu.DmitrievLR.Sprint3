@@ -15,7 +15,7 @@ namespace Tyuiu.DmitrievLR.Sprint3.Task0.V10.Lib
              
             
             
-            return dd;
+            return Math.Round(dd,3);
         }
     }
 }

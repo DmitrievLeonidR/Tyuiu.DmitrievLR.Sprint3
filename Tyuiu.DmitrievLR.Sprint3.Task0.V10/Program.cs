@@ -48,4 +48,4 @@ namespace Tyuiu.DmitrievLR.Sprint3.Task0.V10
             Console.ReadKey(); 
         }
     }
-}
+} 
