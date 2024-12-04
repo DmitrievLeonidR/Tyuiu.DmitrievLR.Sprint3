@@ -12,7 +12,7 @@ namespace Tyuiu.DmitrievLR.Sprint3.Task0.V10.Lib
                  dd *= Math.Pow(300 / (i + (Math.Pow(value, i))),i);
             }
 
-            
+             
             
             
             return dd;

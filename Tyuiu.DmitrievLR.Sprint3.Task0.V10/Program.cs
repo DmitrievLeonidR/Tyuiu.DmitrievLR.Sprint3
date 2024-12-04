@@ -45,7 +45,7 @@ namespace Tyuiu.DmitrievLR.Sprint3.Task0.V10
 
             var result = ds.GetMultiplySeries(value,startValue, stopValue);
             Console.WriteLine(result);
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }
