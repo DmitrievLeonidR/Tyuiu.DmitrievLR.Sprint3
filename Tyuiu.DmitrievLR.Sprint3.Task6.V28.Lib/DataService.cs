@@ -9,25 +9,18 @@ namespace Tyuiu.DmitrievLR.Sprint3.Task6.V28.Lib
             int count = 0;
             for (int i = startValue; i <= stopValue; i++)
             {
-                int divisorsCount = 0;
-                for (int j = 1; j < i; j++)
+                // Iterate through potential divisors
+                for (int j = 1; j < 7; j++)
                 {
+                    // Check if 'j' is a divisor of 'i'
                     if (i % j == 0)
                     {
-                        divisorsCount++;
-                        if (divisorsCount >= 7)
-                        {
-                            break;
-                        }
+                        // Increment the counter if it is
+                        count++;
                     }
                 }
-                if (divisorsCount < 7)
-                {
-                    count++;
-                }
-
             }
-                return count;
+            return count;
         }
     }
 }

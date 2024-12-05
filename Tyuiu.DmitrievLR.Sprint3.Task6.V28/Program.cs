@@ -41,7 +41,7 @@ namespace Tyuiu.DmitrievLR.Sprint3.Task6.V28
 
             var result = ds.GetSumTheDivisors(startValue, stopValue);
             Console.WriteLine(result);
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }
