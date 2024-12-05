@@ -24,7 +24,7 @@ namespace Tyuiu.DmitrievLR.Sprint3.Task4.V24.Lib
 
             }
 
-            return Math.Round(p);
+            return Math.Round(p, 2);
         }
     }
 }
