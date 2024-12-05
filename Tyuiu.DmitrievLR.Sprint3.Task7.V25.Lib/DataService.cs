@@ -17,7 +17,7 @@ namespace Tyuiu.DmitrievLR.Sprint3.Task7.V25.Lib
                 // Check for division by zero
                 if (x == 0)
                 {
-                    values[i] = 0;
+                    values[i] = 1;
                 }
                 else
                 {

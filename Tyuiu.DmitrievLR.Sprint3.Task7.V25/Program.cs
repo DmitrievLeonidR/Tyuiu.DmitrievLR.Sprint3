@@ -38,7 +38,7 @@ namespace Tyuiu.DmitrievLR.Sprint3.Task7.V25
             Console.WriteLine("***************************************************************************");
 
             DataService ds = new DataService();
-
+             
             var result = ds.GetMassFunction(startValue, stopValue);
 
             foreach (int number in result)
