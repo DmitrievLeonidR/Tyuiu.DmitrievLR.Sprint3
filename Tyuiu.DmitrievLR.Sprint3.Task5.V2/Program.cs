@@ -37,7 +37,7 @@ namespace Tyuiu.DmitrievLR.Sprint3.Task5.V2
 
             Console.WriteLine("введите 2 конечное значение: ");
             int stopValue2 = Convert.ToInt32(Console.ReadLine());
-             
+              
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");

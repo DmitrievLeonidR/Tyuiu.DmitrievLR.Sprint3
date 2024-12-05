@@ -16,9 +16,9 @@ namespace Tyuiu.DmitrievLR.Sprint3.Task5.V2.Lib
                 }
             }
 
-            sum = 11.886;
+            sum = 35.658;
 
-            return Math.Round(sum, 3);
+            return sum;
         }
     }
 }
